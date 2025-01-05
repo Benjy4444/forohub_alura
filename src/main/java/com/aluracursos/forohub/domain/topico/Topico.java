@@ -19,12 +19,12 @@ public class Topico {
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private Long id;
+
         private String titulo;
         private String mensaje;
         private LocalDateTime fechacreacion;
         private Boolean status;
         private String curso;
-
 
         //Lo que sigue se debería implementar con otras tablas...
         //private String autor;
